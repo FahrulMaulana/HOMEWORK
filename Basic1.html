@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+    body{
+     background: linear-gradient(to rights,red,blue);
+  
+    }
+    
+      .bg-img{
+     height: 100vh;
+     width: auto;
+     background-size: cover;
+     background-position: center;
+    
+      background-repeat: no-repeat;
+  
+      color: rgb(233, 220, 220);
+      text-align: center;
+      display: flex;
+   
+      align-items: center;
+      justify-content: center
+      }
+      .img-thumbnail{
+        transition: all 0.05s;
+      }
+      .img-thumbnail:hover{
+        transform: scale(1.15);
+      }
+      li{
+        color: brown;
+      }
+      nav{
+       filter: opacity(10);
+      }
+      
+      
+  
+    
+    </style>
+  </head>
+<header>
+
+    <div class="bg-img" style="background-image: url(https://wallpapercave.com/wp/wp2552413.jpg);">
+
+<h2><b><i>Selamat Datang Di Akatsuki</i></b></h2>
+    
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark bg-opacity-10 ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://w7.pngwing.com/pngs/770/1011/png-transparent-naruto-sharingan-eye-illustration-madara-uchiha-sasuke-uchiha-kakashi-hatake-sharingan-clan-uchiha-android-manga-computer-wallpaper-eye-thumbnail.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Uchiha
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link "href="#1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#2">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#3">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#4">Berita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<body>
+ <section id="1">
+  <div class="container">
+    <div class="row">
+      <div class=" col-lg-6 col-md-6 col-sm-12">
+        <h1 style="display: flex; justify-content: center; align-items: center; height: 100vh;"><i><b>Silahkan Login</b></i></h1>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="card border-0 shadow rounded-3 my-5">
+          <div class="card-body p-4 p-sm-5">
+              <H5 class="card-title text-center mb-5 fw-light  fs-5">SIGN IN</H5>
+              <form >
+                  <div class="form-floating mb-3">
+              <input type=" email" class="form-control" id="floatinginput" placeholder="cakil">
+              <label for="floatinginput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                      <input type="password" class="form-control" id="floatingpass" placeholder="cakil">
+                      <label for="floatingpass">Password</label>
+                  </div>
+                  <div class="d-grid">
+                      <button class="btn btn-primary btn-login test-uppercase fw-bold" type="submit">
+                          SIGN IN
+                      </button>
+                  </div>
+                  <div class="d-grid my-2">
+                      <a href="REGISTER.html" class="btn btn-primary btn-login test-uppercase fw-bold" type="button">
+                        REGISTER 
+          
+                  </a>
+                  </div>
+                      <hr class="my-4">
+                      <div class="d-grid">
+                          <button class="btn btn-google btn-login btn-primary text-uppercase fw-bold" type="submit">
+                              SIGN IN WOTH GOOGLE
+                          </button>
+                      </div>
+                  
+          </form>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="2">
+  <h1 class="mx-5 px-5"><b>Destinasi Pilihan</b></h1>
+  <div class="container my-5" >
+    <div class="row " >
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="img-thumbnail" style="width: 100vw;">
+          <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/20/Itachi-304375882.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="3">
+  <h1 class="mx-5 px-5" style="display: flex; justify-content: center;"><b>Destinasi Pilihan</b></h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/11/18/603306391.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://static.republika.co.id/uploads/member/images/news/oz9r8nf0z3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="https://anime.atsit.in/id/wp-content/uploads/2022/12/episode-berapa-madara-uchiha-vs-aliansi-shinobi.jpg" class="d-block w-100" alt="...">
+          </div>
+         
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="4">
+  <h1 class="mx-5 px-5 my-5" ><b>Berita Terbaru</b></h1>
+<div class="container">
+<div class="row">
+  <div class="card mb-4 mx-2 " style="max-width: 50vwpx;">
+    <div class="row g-0">
+      <div class="col-4">
+        <img src="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/04/12/IMG_20230412_002843-1846463166.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-8">
+        <div class="card-body" >
+          <h5 class="card-title"><b>Konoha Diserang</b></h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 mx-2 " style="max-width: 50vwpx;">
+    <div class="row g-0">
+      <div class="col-4">
+        <img src="https://i.pinimg.com/736x/cc/a2/af/cca2af19acb3033dd570df895183ee14.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-8">
+        <div class="card-body" >
+          <h5 class="card-title"><b>Kyuubi Ngamok</b></h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 mx-2 " style="max-width: 50vwpx;">
+    <div class="row g-0">
+      <div class="col-4">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-0239b393d635e88e16b708a1655f9d41-lq" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-8">
+        <div class="card-body" >
+          <h5 class="card-title"><b>Akatsuki Bubar</b></h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+  
+</section>
+</body>
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0 my-5">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

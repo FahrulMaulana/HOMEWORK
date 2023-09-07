@@ -1,0 +1,194 @@
+header {
+    background-image: url(https://images.unsplash.com/photo-1620549146260-938c38c31c13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+/* Style untuk Konten Terkait Wisata */
+.destination-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    flex-wrap: wrap; /* Mengatur wrapping jika ruang tidak cukup */
+}
+
+.destination-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 300px;
+    flex: 1; /* Mengatur lebar kotak agar merespons lebar layar */
+    margin: 10px; /* Memberikan jarak antar kotak */
+   
+}
+
+.destination-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.destination-box h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.destination-box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.destination-box a {
+    text-decoration: none;
+    background-color: #336699;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.destination-box a:hover {
+    background-color: #223344;
+}
+/* Style untuk Navigasi */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #223344;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style untuk Header Destinasi Wisata */
+.destination-header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destination-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.destination-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Style untuk Konten Terkait Wisata */
+.destination-content {
+    padding: 20px;
+}
+
+/* Style untuk Galeri Foto Wisata */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Style untuk Footer */
+/* Style untuk Footer */
+footer {
+    background-color: #223344;
+    color: white;
+    padding: 40px 0;
+}
+/* Style untuk Footer */
+footer {
+    background-color: #223344;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-contact h4,
+.footer-social h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-sosial p {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.footer-social img {
+    
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+/* Media Query untuk Responsif */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .destination-box {
+        max-width: 50%;
+}
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content > * {
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+}

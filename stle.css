@@ -1,0 +1,72 @@
+h3{
+    color: darkblue;
+}
+li{
+    color: darkmagenta;
+    display: inline;
+    background-color: burlywood;
+}
+.menu{
+    background-color: gold;
+}
+#table{
+    
+
+}
+.tablee:hover{
+    background-color: brown;
+}
+table,td{
+    border: 1px solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    color: black;
+}
+.small{
+    font-size: 1em;
+}
+.medium{
+    font-size: 2em;
+}
+#li {
+    display: list-item;
+}
+.div{
+     background-color: chartreuse;
+     padding: 10px;
+     border: 1px solid;
+     border-color: black;
+     margin: 5px;
+}
+.div1{
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin: 5px;
+}
+#div:hover{
+    background-color: blue;
+}
+.divvv{
+    background-color: chartreuse;
+    padding: 10px;
+    border: 1px solid;
+    border-color: black;
+    margin: 5px;
+    width: 50%;
+}
+#element{
+    position: relative;
+}
+.divp{
+    padding: 10px;
+    border: 2px solid;
+    border-color: brown;
+    margin: 10px;
+  
+}
